@@ -1,18 +1,25 @@
-.div1{
+* {
+    /* margin: 0; */
+    padding: 0;
+}
+
+.div1 {
     /* height: 100px; */
     position: sticky;
     top: 0%;
 }
-body{
+
+body {
     color: rgb(19, 0, 0);
     background-color: rgb(0, 0, 0);
 }
-img{
+
+img {
     height: 43px;
 }
-  
-.navbar{
-    
+
+.navbar {
+
     /* height: 100px; */
     background-color: black;
     display: flex;
@@ -20,142 +27,162 @@ img{
     color: rgba(255, 255, 255, 0.75);
     align-items: center;
 }
-.list{
+
+.list {
     font-size: 23px;
     font-family: "Roboto", sans-serif;
     display: flex;
     gap: 30px;
     list-style: none;
-    
+
 }
+
 /* .list :hover{
     color: white;
 } */
-#button{
-  display: flex;
-  gap: 34px;
-  font-size: 25px;
-  padding: 45px;
+#button {
+    display: flex;
+    gap: 34px;
+    font-size: 25px;
+    padding: 45px;
 }
-#button li{
+
+#button li {
     color: #f4f4f4;
     list-style: none;
     text-align: center;
 }
 
 
-.div2{
+.div2 {
     font-family: "Rubik", sans-serif;
     color: rgb(250, 250, 170);
     background-color: rgb(0, 0, 0);
     text-align: center;
     font-size: 60px;
     padding-top: 90px;
-    
+
 }
-.buy1{
+
+.buy1 {
     position: relative;
     bottom: 95px;
-    background-color: rgb(231, 213, 115);
+    background-color: rgb(250, 250, 170);
     color: rgb(3, 3, 35);
     border: 1px;
+    border: 1px solid;
     border-radius: 33px;
-    height: 60px;
+    height: 62px;
     width: 200px;
     font-size: 21px;
     font-family: "Rubik", sans-serif;
-    font-weight: normal;  
-    }
-.div2 h6{
-    position:relative;
-    bottom: 76px;
-    font-family: "Public Sans", sans-serif;
-    font-size: 34px;;
-    color: #ffffff;
-    font-weight: lighter;
-  
+    font-weight: normal;
 }
 
-.sado1{
+.div2 h6 {
+    position: relative;
+    bottom: 76px;
+    font-family: "Public Sans", sans-serif;
+    font-size: 34px;
+    ;
+    color: #ffffff;
+    font-weight: lighter;
+
+}
+
+.sado1 {
     position: relative;
     bottom: 265px;
     font-size: 200px;
     text-align: center;
     color: rgba(56, 56, 86, 0.479);
 }
-.div3{
-    
+
+.div3 {
     /* height: 500px;/ */
     position: relative;
     background-color: rgb(0, 0, 0);
-    
+
 }
-.div3 img{
-    height: 380px;
+
+.div3 img {
+    padding-left: 60px;
+    height: 400px;
     position: absolute;
-    top: -100px; ;
-    
+    top: -100px;
+    ;
+
 }
-.div4{
+
+.div4 {
     padding-top: 40px;
     padding-left: 30px;
     padding-right: 30px;
     display: flex;
     justify-content: space-around;
     gap: 100px;
-    
+
     font-family: "Public Sans", sans-serif;
     background-color: rgb(255, 255, 255);
-    
+
 }
-.div4 i{
+
+.div4 i {
     align-items: center;
     font-size: 44px;
     color: rgb(161, 161, 30);
-    
-}  
-.div4 h1{
+
+}
+
+.div4 h1 {
     font-size: 40px;
     align-items: center;
     color: rgb(42, 1, 1);
-    
+
 }
-#ch{
-    font-family: "Rubik", sans-serif; 
-   color: rgba(31, 2, 2, 0.641);
-   font-size: 20px;
+
+#ch {
+    font-family: "Rubik", sans-serif;
+    color: rgba(31, 2, 2, 0.641);
+    font-size: 20px;
 }
-.div5{
+
+.div5 {
     display: flex;
     padding-top: 100px;
     background-color: #00000000;
 }
-#dib51{
+
+#dib51 {
     /* height: 400px; */
- margin-left: 25px;
- border-radius: 15px;
- background-color: #c8cb40;
+    margin-left: 25px;
+    border-radius: 15px;
+    background-color: #c8cb40;
 }
-#dib51 img{
+
+#dib51 img {
     position: relative;
     top: 20px;
     left: 20px;
     height: 400px;
     border-radius: 15px;
-  
+
 }
-#dib52{
+
+#dib52 {
     position: relative;
     bottom: 37px;
     padding-left: 30px;
     color: white;
 }
-#dib52 h1{
+
+#dib52 h1 {
     font-family: "Rubik", sans-serif;
     padding-left: 50px;
     font-size: 70px;
 }
-#dib52 p{
+
+#dib52 p {
     font-family: "Public Sans", sans-serif;
     color: rgba(245, 250, 255, 0.778);
     position: relative;
@@ -163,16 +190,19 @@ img{
     padding-left: 52px;
     font-size: 24px;
 }
-#dib52 button{
+
+#dib52 button {
     background-color: rgb(255, 237, 156);
     color: #000000;
     margin-left: 57px;
-    height: 65px;
+    height: 68px;
     width: 180px;
+    border: 1px solid;
     border-radius: 35px;
     font-size: 20px;
 }
-h2{
+
+h2 {
     font-family: "Rubik", sans-serif;
 
     color: #373732b5;
@@ -182,41 +212,49 @@ h2{
     bottom: 200px;
     position: relative;
 }
-.div6{
+
+.div6 {
     position: relative;
     bottom: 470px;
     gap: 100px;
     display: flex;
     background-color: white;
 }
-.div6 h1{
+
+.div6 h1 {
     padding-top: 100px;
     padding-left: 30px;
     font-family: "Rubik", sans-serif;
 
-    font-size: 60px;
+    font-size: 65px;
 
 }
-.div6 p{
+
+.div6 p {
     color: #000000a3;
     font-size: 20px;
     font-family: "Public Sans", sans-serif;
     padding-left: 30px;
 }
-.div6 img{
+
+.div6 img {
     padding-top: 80px;
     height: 500px;
 }
-.div6 button{
+
+.div6 button {
     margin-left: 30px;
-    height: 65px;
+    height: 68px;
     width: 180px;
+    border: 1px solid white;
     border-radius: 35px;
     background-color: rgb(255, 237, 156);
     font-size: 20px;
 
 }
-.div7{
+
+.div7 {
+    gap: 100px;
     position: relative;
     bottom: 470px;
     padding-top: 30px;
@@ -224,10 +262,181 @@ h2{
     display: flex;
 
 }
-.div7 img{
-    height: 400px;
+
+.div7 img {
+    padding-left: 40px;
+    height: 500px;
 }
-.Im1{
-  
- height: 700px;
+
+.div7 h1 {
+    padding-left: 30px;
+    font-family: "Rubik", sans-serif;
+
+    font-size: 65px;
+
+}
+
+.div7 p {
+    color: #000000a3;
+    font-size: 20px;
+    font-family: "Public Sans", sans-serif;
+    padding-left: 30px;
+}
+
+.div7 button {
+    margin-left: 30px;
+    height: 68px;
+    width: 180px;
+    border: 1px solid white;
+    border-radius: 35px;
+    background-color: rgb(255, 237, 156);
+    font-size: 20px;
+
+}
+
+.vidb {
+    display: flex;
+    justify-content: center;
+}
+
+.vidb img {
+    position: relative;
+    bottom: 470px;
+    height: 550px;
+}
+
+.div8 {
+    position: relative;
+    bottom: 400px;
+    background-color: #000000;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center
+}
+
+.div8 h1 {
+    text-align: center;
+    font-size: 70px;
+    font-family: "Rubik", sans-serif;
+}
+
+.div8 p {
+    font-size: 30px;
+    color: rgba(245, 245, 245, 0.705);
+}
+
+.div9 {
+    position: relative;
+    bottom: 400px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 10px;
+}
+
+.div9A {
+    font-family: "Rubik", sans-serif;
+    background-color: rgba(89, 78, 78, 0.39);
+    border: 1px solid black;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+
+}
+
+.div9A img {
+    border: 1px solid rgba;
+    border-radius: 10px;
+    height: 400px;
+
+}
+
+.div9A p {
+    font-family: "Public Sans", sans-serif;
+    gap: 40px;
+    font-size: 22px
+}
+
+.div9A del {
+    font-family: "Public Sans", sans-serif;
+    padding-left: 40PX;
+    color: rgba(255, 255, 255, 0.625);
+}
+
+.div10 {
+    position: relative;
+    bottom: 400px;
+    color: rgba(163, 118, 4, 0.348);
+    background-color: white;
+    align-items: center;
+}
+
+.div10 h1 {
+    text-align: center;
+    font-size: 200px;
+
+}
+
+.div10 img {
+    position: relative;
+    bottom: 950px;
+    left: 500px;
+    height: 700px;
+
+}
+
+.back {
+    border-top-right-radius: 300px;
+    border-top-left-radius: 300px;
+    position: relative;
+    left: 470px;
+    bottom: 100px;
+
+    background-color: rgba(231, 204, 136, 0.711);
+    height: 700px;
+    width: 550px;
+    
+}
+
+.comment {
+    border-left: 5px solid tomato;
+    border-right: 2px solid tomato;
+    border-radius: 20px;
+    position: relative;
+    right: 300px;
+    bottom : 160px;
+    height: 400px;
+    width: 400px;
+    background-color: white;
+}
+
+.comment p {
+    
+    color: rgb(5, 0, 0);
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.rew {
+    font-family: "Rubik", sans-serif;
+    position: relative;
+    left: 600px;
+    font-size: 60px;
+    font-weight: bold;
+    color: #000000;
+}
+.rew p{
+    color: rgba(72, 64, 64, 0.827);
+   position: relative;
+   left: 400px;
+}
+.rew2{
+    
+    position: relative;
+    left:900px;
+    bottom: 200px;
+    color: red;
 }
