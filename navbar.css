@@ -4,9 +4,10 @@
 }
 
 .div1 {
-    /* height: 100px; */
     position: sticky;
     top: 0%;
+    ;
+
 }
 
 body {
@@ -19,8 +20,6 @@ img {
 }
 
 .navbar {
-
-    /* height: 100px; */
     background-color: black;
     display: flex;
     justify-content: space-between;
@@ -37,9 +36,12 @@ img {
 
 }
 
-/* .list :hover{
+.list :hover {
     color: white;
-} */
+    font-size: 25px;
+    text-decoration: underline rgb(250, 250, 170);
+}
+
 #button {
     display: flex;
     gap: 34px;
@@ -51,6 +53,21 @@ img {
     color: #f4f4f4;
     list-style: none;
     text-align: center;
+}
+
+.i1:hover {
+    color: #f70000;
+    font-size: 30px;
+}
+
+.i2:hover {
+    color: #78d0f6;
+    font-size: 35px;
+}
+
+.i3:hover {
+    color: #f0ff18;
+    font-size: 30px;
 }
 
 
@@ -79,12 +96,16 @@ img {
     font-weight: normal;
 }
 
+.buy1:hover {
+    background-color: white;
+    font-weight: bold
+}
+
 .div2 h6 {
     position: relative;
     bottom: 76px;
     font-family: "Public Sans", sans-serif;
     font-size: 34px;
-    ;
     color: #ffffff;
     font-weight: lighter;
 
@@ -154,8 +175,7 @@ img {
 }
 
 #dib51 {
-    /* height: 400px; */
-    margin-left: 25px;
+       margin-left: 25px;
     border-radius: 15px;
     background-color: #c8cb40;
 }
@@ -366,6 +386,7 @@ h2 {
 }
 
 .div10 {
+    padding: 0%;
     position: relative;
     bottom: 400px;
     color: rgba(163, 118, 4, 0.348);
@@ -377,6 +398,10 @@ h2 {
     text-align: center;
     font-size: 200px;
 
+}
+
+.div10 h1:hover {
+    color: rgba(139, 50, 222, 0.871);
 }
 
 .div10 img {
@@ -397,7 +422,7 @@ h2 {
     background-color: rgba(231, 204, 136, 0.711);
     height: 700px;
     width: 550px;
-    
+
 }
 
 .comment {
@@ -405,19 +430,29 @@ h2 {
     border-right: 2px solid tomato;
     border-radius: 20px;
     position: relative;
-    right: 300px;
-    bottom : 160px;
+    right: 350px;
+    bottom: 160px;
     height: 400px;
     width: 400px;
     background-color: white;
 }
 
+.comment:hover {
+    height: 600px;
+
+}
+
 .comment p {
-    
+
     color: rgb(5, 0, 0);
     padding: 10px;
     text-align: center;
     font-size: 30px;
+}
+
+.comment p:hover {
+    font-size: 40px;
+    color: #0016dfea;
 }
 
 .rew {
@@ -428,15 +463,151 @@ h2 {
     font-weight: bold;
     color: #000000;
 }
-.rew p{
+
+.rew p {
     color: rgba(72, 64, 64, 0.827);
-   position: relative;
-   left: 400px;
-}
-.rew2{
-    
     position: relative;
-    left:900px;
+    left: 400px;
+    bottom: 400px;
+}
+
+.rew2 {
+
+    position: relative;
+    left: 900px;
     bottom: 200px;
     color: red;
+}
+
+.Footer {
+    display: flex;
+    position: relative;
+    bottom: 1200px;
+    color: white;
+    background-color: rgb(23, 13, 56);
+}
+
+.Footer img {
+    height: 60px;
+}
+
+#Idiv {
+    display: flex;
+    gap: 30px;
+}
+
+#Idiv i {
+    padding: 15px;
+    font-size: 30px;
+    color: #ffffff;
+    background-color: rgba(69, 54, 120, 0.915);
+    border-radius: 45px;
+    border: none;
+
+}
+
+.f1 {
+    padding: 40px;
+}
+
+.f1 p {
+    font-family: "Public Sans", sans-serif;
+    color: #ffffffc5;
+    font-size: 25px;
+}
+
+.f2 h1 {
+    padding-top: 20px;
+    font-family: "Rubik", sans-serif;
+    font-size: 40px;
+}
+
+.f2 p {
+    font-family: "Public Sans", sans-serif;
+    font-size: 20px;
+    color: #ffffffc5;
+}
+
+.f3 {
+    padding-left: 50px;
+}
+
+.f3 h1 {
+    padding-top: 20px;
+    font-family: "Rubik", sans-serif;
+    font-size: 40px;
+}
+
+.f3 p {
+    font-family: "Public Sans", sans-serif;
+    font-size: 20px;
+    color: #ffffffc5;
+}
+
+.f4 {
+
+    padding-top: 20px;
+    padding-left: 60px;
+}
+
+.f4 h1 {
+    font-size: 40px;
+    font-family: "Rubik", sans-serif;
+}
+
+.f4 p {
+    color: #ffffffc5;
+    font-size: 20px;
+    font-family: "Public Sans", sans-serif;
+}
+
+.sub {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.sub input {
+
+    background-color: rgba(53, 36, 109, 0.88);
+    text-align: center;
+    font-size: 20px;
+    padding-left: 10px;
+    height: 53px;
+    width: 300px;
+    border-radius: 5px;
+    border: none;
+}
+
+.sub #i1 {
+    text-align: center;
+    position: relative;
+    left: 58px;
+    top: 13px;
+    color: rgba(255, 250, 250, 0.835);
+    font-size: 25px;
+    border-radius: 0px;
+}
+
+.sub button {
+    background-color: tomato;
+    justify-content: center;
+    text-align: center;
+    height: 52px;
+    width: 50px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.c {
+    padding-top: 30px;
+    font-family: "Public Sans", sans-serif;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    bottom: 1241px;
+    color: #ffffffc5;
+    background-color: rgb(23, 13, 56);
 }
