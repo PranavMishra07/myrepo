@@ -122,6 +122,8 @@ img {
 .div3 {
     position: relative;
     background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
 
 }
 
@@ -129,21 +131,18 @@ img {
     padding-left: 60px;
     height: 400px;
     position: absolute;
-    top: -100px;
-    ;
-
 }
 
 .div4 {
-    padding-top: 40px;
+    /* padding-top: 60px;
     padding-left: 30px;
-    padding-right: 30px;
+    padding-right: 30px; */
+    padding: 50px;
     display: flex;
     justify-content: space-around;
     gap: 100px;
     font-family: "Public Sans", sans-serif;
     background-color: rgb(255, 255, 255);
-
 }
 
 .div4 i {
@@ -233,7 +232,7 @@ h2 {
     position: relative;
     left: 325px;
     bottom: 200px;
-    position: relative;
+    /* position: relative; */
 }
 
 .div6 {
@@ -241,6 +240,7 @@ h2 {
     bottom: 470px;
     gap: 100px;
     display: flex;
+    justify-content: center;
     background-color: white;
 }
 
@@ -286,6 +286,7 @@ h2 {
     padding-top: 30px;
     background-color: white;
     display: flex;
+    justify-content: center;
 
 }
 
@@ -360,13 +361,10 @@ h2 {
     bottom: 400px;
     background-color: #000000;
     color: white;
-    justify-content: center;
-    align-items: center;
-    text-align: center
+    text-align: center;
 }
 .div8:hover{
     color: rgb(255, 237, 156);
-    
 }
 
 .div8 h1 {
@@ -440,12 +438,12 @@ h2 {
 }
 
 .div10 {
-    padding: 0%;
+    /* padding: 0%; */
     position: relative;
     bottom: 400px;
     color: rgba(163, 118, 4, 0.348);
     background-color: white;
-    align-items: center;
+   
 }
 
 .div10 h1 {
@@ -536,6 +534,7 @@ h2 {
 .Footer {
     padding-top: 40px;
     display: flex;
+    justify-content: center;
     position: relative;
     bottom: 1200px;
     color: white;
