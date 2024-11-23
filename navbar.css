@@ -6,7 +6,7 @@
 .div1 {
     position: sticky;
     top: 0%;
-    ;
+   
 
 }
 
@@ -120,7 +120,6 @@ img {
 }
 
 .div3 {
-    /* height: 500px;/ */
     position: relative;
     background-color: rgb(0, 0, 0);
 
@@ -142,7 +141,6 @@ img {
     display: flex;
     justify-content: space-around;
     gap: 100px;
-
     font-family: "Public Sans", sans-serif;
     background-color: rgb(255, 255, 255);
 
@@ -170,12 +168,14 @@ img {
 
 .div5 {
     display: flex;
+    justify-content: center;
+    gap: 100px;
     padding-top: 100px;
     background-color: #00000000;
 }
 
 #dib51 {
-       margin-left: 25px;
+    margin-left: 25px;
     border-radius: 15px;
     background-color: #c8cb40;
 }
@@ -217,14 +217,17 @@ img {
     margin-left: 57px;
     height: 68px;
     width: 180px;
-    border: 1px solid;
+    border: none;
     border-radius: 35px;
     font-size: 20px;
+}
+#dib52 button:hover{
+    background-color: white;
+    
 }
 
 h2 {
     font-family: "Rubik", sans-serif;
-
     color: #373732b5;
     font-size: 220px;
     position: relative;
@@ -261,16 +264,19 @@ h2 {
     padding-top: 80px;
     height: 500px;
 }
-
 .div6 button {
     margin-left: 30px;
     height: 68px;
     width: 180px;
-    border: 1px solid white;
+    border: none;
     border-radius: 35px;
     background-color: rgb(255, 237, 156);
     font-size: 20px;
 
+}
+.div6 button:hover{
+    background-color: black;
+    color:rgb(255, 237, 156) ;
 }
 
 .div7 {
@@ -307,23 +313,47 @@ h2 {
     margin-left: 30px;
     height: 68px;
     width: 180px;
-    border: 1px solid white;
+    border: none;
     border-radius: 35px;
     background-color: rgb(255, 237, 156);
     font-size: 20px;
 
 }
-
-.vidb {
-    display: flex;
-    justify-content: center;
+.div7 button:hover{
+    background-color: black;
+    color:rgb(255, 237, 156) ;
 }
 
-.vidb img {
+.vidb {
+    background-image: url(images/video-background.jpg);
+    position: relative;
+    bottom: 520px;
+    height: 550px;
+    align-items: center;
+    /* display: flex; */
+    justify-content: center;
+}
+.vidb h1{
+    font-family: "Rubik", sans-serif;
+    font-size: 70px;
+    padding: 30px;
+    color:rgba(146, 130, 130, 0.651);
+}
+.vidb i{
+    font-size: 100px;
+    padding-left: 700px;    
+    color: rgba(226, 210, 210, 0.605);
+}
+.vidb i:hover{
+    font-size:130px ;
+    color: #907a3fd4;
+}
+
+/* .vidb img {
     position: relative;
     bottom: 470px;
     height: 550px;
-}
+} */
 
 .div8 {
     position: relative;
@@ -333,6 +363,10 @@ h2 {
     justify-content: center;
     align-items: center;
     text-align: center
+}
+.div8:hover{
+    color: rgb(255, 237, 156);
+    
 }
 
 .div8 h1 {
@@ -366,13 +400,33 @@ h2 {
 
 }
 
+
 .div9A img {
     border: 1px solid rgba;
     border-radius: 10px;
     height: 400px;
 
 }
-
+.div9A img:hover{
+   
+    border-radius: 100%;
+    animation-name: disco;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes disco {
+    
+    30%{
+        
+        rotate: 20deg;
+    }
+   
+    70%{
+       
+        rotate: -20deg;
+    }
+} 
 .div9A p {
     font-family: "Public Sans", sans-serif;
     gap: 40px;
@@ -480,6 +534,7 @@ h2 {
 }
 
 .Footer {
+    padding-top: 40px;
     display: flex;
     position: relative;
     bottom: 1200px;
@@ -602,7 +657,8 @@ h2 {
 }
 
 .c {
-    padding-top: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     font-family: "Public Sans", sans-serif;
     font-size: 30px;
     text-align: center;
