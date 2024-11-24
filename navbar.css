@@ -1,32 +1,33 @@
 * {
-    /* margin: 0; */
+    margin: 0; 
     padding: 0;
 }
+body {
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
 
 .div1 {
     position: sticky;
     top: 0%;
-   
-
 }
 
-body {
-    color: rgb(19, 0, 0);
-    background-color: rgb(0, 0, 0);
-}
+
 
 img {
     height: 43px;
 }
 
 .navbar {
+    padding: 30px;
     background-color: black;
     display: flex;
     justify-content: space-between;
     color: rgba(255, 255, 255, 0.75);
     align-items: center;
 }
-
 .list {
     font-size: 23px;
     font-family: "Roboto", sans-serif;
@@ -46,7 +47,7 @@ img {
     display: flex;
     gap: 34px;
     font-size: 25px;
-    padding: 45px;
+    padding-right:50px;
 }
 
 #button li {
@@ -82,28 +83,24 @@ img {
 }
 
 .buy1 {
-    position: relative;
-    bottom: 95px;
+    /* position: relative; */
+    /* bottom: 95px;*/
     background-color: rgb(250, 250, 170);
     color: rgb(3, 3, 35);
-    border: 1px;
+    border: none;
     border: 1px solid;
     border-radius: 33px;
     height: 62px;
     width: 200px;
     font-size: 21px;
     font-family: "Rubik", sans-serif;
-    font-weight: normal;
 }
-
 .buy1:hover {
     background-color: white;
     font-weight: bold
 }
 
 .div2 h6 {
-    position: relative;
-    bottom: 76px;
     font-family: "Public Sans", sans-serif;
     font-size: 34px;
     color: #ffffff;
@@ -112,25 +109,28 @@ img {
 }
 
 .sado1 {
-    position: relative;
-    bottom: 265px;
     font-size: 200px;
     text-align: center;
     color: rgba(56, 56, 86, 0.479);
 }
 
 .div3 {
-    position: relative;
+    /* position: relative; */
     background-color: rgb(0, 0, 0);
-    display: flex;
+    /* display: flex; */
     justify-content: center;
+    text-align: center;
 
 }
 
 .div3 img {
-    padding-left: 60px;
-    height: 400px;
-    position: absolute;
+
+    /* padding-left: 60px; */
+    height: 420px;
+    /* justify-content: center; */
+        position: absolute;
+        right: 38px;
+        top:600px;
 }
 
 .div4 {
@@ -138,6 +138,8 @@ img {
     padding-left: 30px;
     padding-right: 30px; */
     padding: 50px;
+    padding-top: 200px;
+    padding-bottom: 100px;
     display: flex;
     justify-content: space-around;
     gap: 100px;
@@ -189,8 +191,6 @@ img {
 }
 
 #dib52 {
-    position: relative;
-    bottom: 37px;
     padding-left: 30px;
     color: white;
 }
@@ -204,8 +204,8 @@ img {
 #dib52 p {
     font-family: "Public Sans", sans-serif;
     color: rgba(245, 250, 255, 0.778);
-    position: relative;
-    bottom: 30px;
+    /* position: relative;
+    bottom: 30px; */
     padding-left: 52px;
     font-size: 24px;
 }
@@ -213,6 +213,7 @@ img {
 #dib52 button {
     background-color: rgb(255, 237, 156);
     color: #000000;
+    margin-top: 45px;
     margin-left: 57px;
     height: 68px;
     width: 180px;
@@ -229,15 +230,10 @@ h2 {
     font-family: "Rubik", sans-serif;
     color: #373732b5;
     font-size: 220px;
-    position: relative;
-    left: 325px;
-    bottom: 200px;
-    /* position: relative; */
+    padding-left: 60px;
 }
 
 .div6 {
-    position: relative;
-    bottom: 470px;
     gap: 100px;
     display: flex;
     justify-content: center;
@@ -265,6 +261,7 @@ h2 {
     height: 500px;
 }
 .div6 button {
+    margin-top: 40px;
     margin-left: 30px;
     height: 68px;
     width: 180px;
@@ -281,8 +278,8 @@ h2 {
 
 .div7 {
     gap: 100px;
-    position: relative;
-    bottom: 470px;
+    /* position: relative;
+    bottom: 470px; */
     padding-top: 30px;
     background-color: white;
     display: flex;
@@ -311,6 +308,7 @@ h2 {
 }
 
 .div7 button {
+    margin-top: 40px;
     margin-left: 30px;
     height: 68px;
     width: 180px;
@@ -324,14 +322,11 @@ h2 {
     background-color: black;
     color:rgb(255, 237, 156) ;
 }
-
 .vidb {
     background-image: url(images/video-background.jpg);
-    position: relative;
-    bottom: 520px;
     height: 550px;
-    align-items: center;
-    /* display: flex; */
+    padding-left: 685px;
+     /* display: flex;  */
     justify-content: center;
 }
 .vidb h1{
@@ -341,24 +336,22 @@ h2 {
     color:rgba(146, 130, 130, 0.651);
 }
 .vidb i{
+    padding-top: 80px;
+    align-items: center;
     font-size: 100px;
-    padding-left: 700px;    
+    /* padding-left: 700px;     */
     color: rgba(226, 210, 210, 0.605);
 }
 .vidb i:hover{
-    font-size:130px ;
+    /* font-size:110px ; */
     color: #907a3fd4;
 }
 
-/* .vidb img {
-    position: relative;
-    bottom: 470px;
-    height: 550px;
-} */
+
+
 
 .div8 {
-    position: relative;
-    bottom: 400px;
+    padding: 60px;
     background-color: #000000;
     color: white;
     text-align: center;
@@ -374,13 +367,91 @@ h2 {
 }
 
 .div8 p {
+    padding-top: 30px;
     font-size: 30px;
     color: rgba(245, 245, 245, 0.705);
 }
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+.imp{
+    /* padding-top: 100px; */
+    margin-left: 30px;
+    width: fit-content;
+    /* display: flex; */
+    
+}
+.seen1{
+    display: flex;
+ 
+    justify-content:start;
+    gap: 60px;
+}
+
+.seen2{
+    padding-top: 100px;
+    display: flex;
+    gap: 60px;
+    padding-bottom: 30px;
+}
+.imp i{
+    background-color:rgb(221, 221, 79);
+    padding: 20px;
+    font-size: 40px;
+    border: none;
+    border-radius: 200%;
+}
+.imp h1{
+    font-family: "Rubik", sans-serif;
+    padding-top: 40px;
+    font-weight: bolder;
+}
+.imp p{
+    color: #00435fcc;
+    font-family: "Public Sans", sans-serif;
+    /* text-align: center; */
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+.davidA #p2{
+    /* padding-top: 50px; */
+    font-size: 25px;
+}
+.david1{
+    padding-top: 120px;
+   
+    display: flex;
+    justify-content:space-between ;
+    gap: 200px;
+    background-color: white;
+}
+.side{
+    margin-right: 30px;
+    
+    background-color:rgb(221, 221, 79);
+    border-top-right-radius: 100%;
+    border-top-left-radius: 100%;
+}
+.side  #i1{
+    height: 300px;
+   position: relative;
+   bottom: 120px;
+   left: 10px
+   
+  
+}
+.side #i2{
+    height: 400px;
+    width: 550px;
+  position: relative;
+  top: 35px;
+ left: 35px;
+}
 
 .div9 {
-    position: relative;
-    bottom: 400px;
+    padding: 40px;
     display: flex;
     justify-content: center;
     gap: 40px;
@@ -390,7 +461,7 @@ h2 {
 .div9A {
     font-family: "Rubik", sans-serif;
     background-color: rgba(89, 78, 78, 0.39);
-    border: 1px solid black;
+    border: none;
     padding: 40px;
     border-radius: 10px;
     text-align: center;
@@ -400,7 +471,8 @@ h2 {
 
 
 .div9A img {
-    border: 1px solid rgba;
+    border: none;
+    padding-bottom: 20px;
     border-radius: 10px;
     height: 400px;
 
@@ -426,6 +498,7 @@ h2 {
     }
 } 
 .div9A p {
+    padding: 20px;
     font-family: "Public Sans", sans-serif;
     gap: 40px;
     font-size: 22px
@@ -436,116 +509,23 @@ h2 {
     padding-left: 40PX;
     color: rgba(255, 255, 255, 0.625);
 }
-
-.div10 {
-    /* padding: 0%; */
-    position: relative;
-    bottom: 400px;
-    color: rgba(163, 118, 4, 0.348);
-    background-color: white;
-   
-}
-
-.div10 h1 {
-    text-align: center;
-    font-size: 200px;
-
-}
-
-.div10 h1:hover {
-    color: rgba(139, 50, 222, 0.871);
-}
-
-.div10 img {
-    position: relative;
-    bottom: 950px;
-    left: 500px;
-    height: 700px;
-
-}
-
-.back {
-    border-top-right-radius: 300px;
-    border-top-left-radius: 300px;
-    position: relative;
-    left: 470px;
-    bottom: 100px;
-
-    background-color: rgba(231, 204, 136, 0.711);
-    height: 700px;
-    width: 550px;
-
-}
-
-.comment {
-    border-left: 5px solid tomato;
-    border-right: 2px solid tomato;
-    border-radius: 20px;
-    position: relative;
-    right: 350px;
-    bottom: 160px;
-    height: 400px;
-    width: 400px;
-    background-color: white;
-}
-
-.comment:hover {
-    height: 600px;
-
-}
-
-.comment p {
-
-    color: rgb(5, 0, 0);
-    padding: 10px;
-    text-align: center;
-    font-size: 30px;
-}
-
-.comment p:hover {
-    font-size: 40px;
-    color: #0016dfea;
-}
-
-.rew {
-    font-family: "Rubik", sans-serif;
-    position: relative;
-    left: 600px;
-    font-size: 60px;
-    font-weight: bold;
-    color: #000000;
-}
-
-.rew p {
-    color: rgba(72, 64, 64, 0.827);
-    position: relative;
-    left: 400px;
-    bottom: 400px;
-}
-
-.rew2 {
-
-    position: relative;
-    left: 900px;
-    bottom: 200px;
-    color: red;
-}
-
 .Footer {
     padding-top: 40px;
     display: flex;
+    gap: 20px;
     justify-content: center;
-    position: relative;
-    bottom: 1200px;
     color: white;
     background-color: rgb(23, 13, 56);
 }
 
 .Footer img {
-    height: 60px;
+    padding-top: 10px;
+    height: 50px;
 }
 
 #Idiv {
+    padding: 30px;
+    padding-left: 10px;
     display: flex;
     gap: 30px;
 }
@@ -559,15 +539,11 @@ h2 {
     border: none;
 
 }
-
-.f1 {
-    padding: 40px;
-}
-
 .f1 p {
+    padding-top: 30px;
     font-family: "Public Sans", sans-serif;
     color: #ffffffc5;
-    font-size: 25px;
+    font-size: 22px;
 }
 
 .f2 h1 {
@@ -577,6 +553,7 @@ h2 {
 }
 
 .f2 p {
+    padding-top: 30px;
     font-family: "Public Sans", sans-serif;
     font-size: 20px;
     color: #ffffffc5;
@@ -593,6 +570,7 @@ h2 {
 }
 
 .f3 p {
+    padding-top: 30px;
     font-family: "Public Sans", sans-serif;
     font-size: 20px;
     color: #ffffffc5;
@@ -610,6 +588,7 @@ h2 {
 }
 
 .f4 p {
+    padding-top: 30px;
     color: #ffffffc5;
     font-size: 20px;
     font-family: "Public Sans", sans-serif;
@@ -662,7 +641,7 @@ h2 {
     font-size: 30px;
     text-align: center;
     position: relative;
-    bottom: 1241px;
+    /* bottom: 1241px; */
     color: #ffffffc5;
     background-color: rgb(23, 13, 56);
 }
