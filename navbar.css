@@ -457,6 +457,12 @@ h2 {
     gap: 40px;
     margin: 10px;
 }
+.div9 i{
+    color: gold;
+    font-size: 25px;
+    padding-left: 4px;  
+       
+}
 
 .div9A {
     font-family: "Rubik", sans-serif;
@@ -539,11 +545,26 @@ h2 {
     border: none;
 
 }
+#Idiv i:hover{
+    font-size: 40px;
+    padding: 0%;
+    border-radius: 0%;
+    background-color: rgb(23, 13, 56);
+    border:none;
+    position:relative;
+    
+    top: 10px;
+    left: 10px;
+    
+}
 .f1 p {
     padding-top: 30px;
     font-family: "Public Sans", sans-serif;
     color: #ffffffc5;
     font-size: 22px;
+}
+.f1 p:hover{
+    color: #d87c7cdf;
 }
 
 .f2 h1 {
@@ -557,6 +578,9 @@ h2 {
     font-family: "Public Sans", sans-serif;
     font-size: 20px;
     color: #ffffffc5;
+}
+.f2 p:hover{
+    color: #d87c7cdf;
 }
 
 .f3 {
@@ -574,6 +598,9 @@ h2 {
     font-family: "Public Sans", sans-serif;
     font-size: 20px;
     color: #ffffffc5;
+}
+.f3 p:hover{
+    color: #d87c7cdf;
 }
 
 .f4 {
@@ -593,6 +620,9 @@ h2 {
     font-size: 20px;
     font-family: "Public Sans", sans-serif;
 }
+.f4 p:hover{
+    color: #d87c7cdf;
+}
 
 .sub {
     padding-top: 30px;
@@ -602,7 +632,7 @@ h2 {
 }
 
 .sub input {
-
+   color: white; 
     background-color: rgba(53, 36, 109, 0.88);
     text-align: center;
     font-size: 20px;
@@ -632,6 +662,9 @@ h2 {
     font-size: 20px;
     border-radius: 5px;
     border: none;
+}
+.sub button:hover{
+    background-color: white;
 }
 
 .c {
