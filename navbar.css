@@ -2,10 +2,73 @@
     margin: 0; 
     padding: 0;
 }
+#check{
+    display: none;
+}
 body {
     background-color: #000000;
     margin: 0;
     padding: 0;
+}
+#check:checked~.navbar .list{
+    
+    display: block;
+}
+@media screen and (max-width:600px) {
+     .navbar {
+        height: 60px;
+     }
+    .navbar .list li{
+        display: none;
+        position: absolute;
+        background-color: lightblue;
+    }
+   .navbar #button label{
+        display: block;
+    }
+    
+}
+@media screen and (max-width:600px) {
+   .div4{
+    flex-direction: column;
+   }
+   .div5{
+    flex-direction: column;
+   }
+   .div6{
+   flex-direction: column;
+   }
+   .div7{
+    flex-direction: column;
+   }
+   .vidb{
+        flex-direction: column;
+        display:none; 
+    
+    } 
+  
+   .vidb h1{
+        display: none;
+   }
+   .vidb p{
+    display: none;
+   }
+    .david1{
+        flex-direction: column;
+    }
+    /* .div8{
+        flex-direction: column;
+    } */
+   .div9{
+
+    flex-direction: column;
+   }  
+   .Footer{
+    flex-direction: column;
+   }
+   .c{
+    flex-direction: column;
+   }
 }
 
 
@@ -70,7 +133,10 @@ img {
     color: #f0ff18;
     font-size: 30px;
 }
-
+#button label{
+    color:white ;
+    display: none;
+}
 
 .div2 {
     font-family: "Rubik", sans-serif;
@@ -336,6 +402,7 @@ h2 {
     color:rgba(146, 130, 130, 0.651);
 }
 .vidb i{
+    width: 100%;
     padding-top: 80px;
     align-items: center;
     font-size: 100px;
