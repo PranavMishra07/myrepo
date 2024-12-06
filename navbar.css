@@ -30,6 +30,9 @@ html {
     .navbar img{
         height: 20px ;
     }
+    #button i{
+        font-size: 10px;
+    }
     .navbar .list {
         display: none;
 
