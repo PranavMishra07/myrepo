@@ -416,12 +416,12 @@ html {
     background-image: url(newimg/pay3back.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: white;
-    display: flex;
+    background-color: rgb(255, 255, 255);
+    /* display: flex;
     justify-content: center;
     /* border: 1px solid; */
-    margin-left: 150px;
-    margin-right: 150px;
+    /* margin-left: 150px;
+    margin-right: 150px;  */
 }
 .OrderSummary h1{
     font-family: "Rubik", sans-serif;
@@ -429,11 +429,15 @@ html {
 }
 
 .coontain {
- 
+  /* display: flex; */
+      
     justify-content: center;
+   margin-top: 30px;
+    margin-left: 300px;
+    margin-right: 300px;
     align-items: center;
     text-align: center;
-    margin: 40px;
+    /* margin: 40px; */
 }
 
 .coontain h1 {
@@ -449,7 +453,8 @@ html {
     background-color: rgba(255, 255, 133, 0.262);
     /* border: 1px solid; */
     display: flex;
-    justify-content: start;
+    /* justify-content: start; */
+    justify-content: center;
     align-items: center;
     text-align: center;
     gap: 30px;
@@ -479,6 +484,7 @@ html {
 
 .coontain2 {
     display: flex;
+    justify-content: center;
     border-radius: 50px 20px;
     background-color: rgba(255, 255, 255, 0.285);
 }
@@ -493,12 +499,22 @@ html {
 .coon1 input {
     font-family: "Public Sans", sans-serif;
     height: 35px;
+    width: 200px;
     text-align: center;
     font-weight: bold;
     letter-spacing: 0.5ch;
     padding: 3px;
     border: none;
     background-color: rgba(212, 214, 249, 0.443);
+
+}
+
+#cred{
+    font-size: 22px;
+    position: relative;
+    left: 55px;
+  
+
 }
 
 .coon1 button {
@@ -506,7 +522,7 @@ html {
     font-weight: bold;
     border: none;
     height: 40px;
-    width: 65px;
+    width: 70px;
     letter-spacing: 0.5ch;
     padding: 5px;
     color: white;
@@ -586,12 +602,15 @@ html {
     height: 30px;
     width: 300px;
     margin-top:10px;
+    
 }
 .shipmethod input{
     font-family: "Public Sans", sans-serif;
     font-size: 25px;
     color:  rgb(69, 0, 0);
+
 }
+
 .shipmethod #radio{
     background-color: black;
     color: black;
@@ -610,26 +629,34 @@ html {
 .shipmethod h3{
     font-family: "Rubik", sans-serif;
     font-size: 35px;
-    color: rgb(246, 255, 0);
+    color: rgb(0, 255, 136);
 }
 
 .shipmethod img {
     height: 30px;
+ border-radius: 50px;
 
 }
 
 .shipmethod #Pytm {
 
-    height: 45px;
+    height: 50px;
     position: relative;
-    top: 10px;
+    top: 13px;
+    right:35px;
 }
 
 .shipmethod #rupy {
     height: 60px;
     position: relative;
     top: 20px;
-
+    right:35px; 
+    
+}
+.shipmethod #phonpe{
+    position: relative;
+    top: 5px;
+    right:30px; 
 }
 
 .bttn {
@@ -666,11 +693,64 @@ html {
 /* ================================================ === Order SummArry Css End === =========================------------------------ */
 
 
+/*==================================================Thankyou page css-------------------------------------------======================= */
+.thanks{
+
+    background-image: url(newimg/payback.jpg);
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+}
+.thankYou{
+   
+   /* margin: 300px; */
+   /* border-radius:30%;     */
+}
+.confirm{
+
+    display: flex;
+    justify-content: center;align-items: center;
+}
+.confirm img{  
+  height: 200px;
+}
+.thankcode{
+
+    text-align: center;
+}
+.thankcode h3{  
+    font-family: "Rubik", sans-serif; 
+    font-size: 50px;
+}
+.thankcode p{  
+    font-family: "Public Sans", sans-serif;
+    font-size: 30px;
+}
+.paid{
+
+    text-align: center;
+    
+}
+.paid img{
+  
+    margin-top: 30px;
+    height: 300px;
+    border-radius: 100%;
+}
+
+.thankYou h5{
+    color: rgba(153, 51, 146, 0.679);
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 40px;
+
+}
 
 
 
 
 
+/*==================================================Thankyou page cssEnd  -------------------------------------------======================= */
 
 
 
@@ -819,6 +899,7 @@ img {
 }
 
 .divbuy .productq {
+    display: flex;
     border-top: 1px solid #FF6B31;
     border-bottom: 1px solid #FF6B31;
     border-radius: 5px;
