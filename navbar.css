@@ -31,7 +31,7 @@ html {
         height: 20px ;
     }
     #button i{
-        font-size: 10px;
+        font-size: 15px;
     }
     .navbar .list {
         display: none;
@@ -49,7 +49,7 @@ html {
 
     .navbar .list li {
 
-        padding: 12px;
+        padding: 2px;
     }
 
     .navbar #button label {
@@ -65,7 +65,7 @@ html {
     }
 
     .div3 h1 {
-        font-size: 100px;
+        font-size: 60px;
     }
 
     .div3 img {
@@ -83,9 +83,12 @@ html {
     #dib51 {
         width: 500px;
     }
+    #dib51 img{
+        height:500px ;
+    }
 
     .div5 #dib52 h1 {
-        font-size: 60px;
+        font-size: 50px;
     }
 
     .div5 #dib52 p {
@@ -129,6 +132,24 @@ html {
     .david1 {
         flex-direction: column;
     }
+     .davidA h1{
+        font-size: 25px ;
+     }
+     .davidA p{
+        font-size: 15px;
+     }
+     .side #i1{
+        width: 400px;
+        margin-left: 80px;
+     }
+     .side{
+        margin-left: 20px;
+     }
+     .side #i2{
+       position: relative;
+        width: 400px;
+        margin-left: -30px;
+     }
 
     /* .div8{
         flex-direction: column;
@@ -1172,6 +1193,8 @@ img {
 
 
 /* --------------------------------------------------------Product page css end  ------------------------------------------------------------------*/
+/* --------------------------------------------------------main page css start  ------------------------------------------------------------------*/
+
 .div1 {
     position: sticky;
     z-index: 9999;
@@ -1895,3 +1918,4 @@ h2 {
     color: #ffffffc5;
     background-color: rgb(23, 13, 56);
 }
+/* --------------------------------------------------------main  page css end  ------------------------------------------------------------------*/
