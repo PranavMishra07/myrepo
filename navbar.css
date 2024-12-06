@@ -21,17 +21,20 @@ html {
 
     display: block;
 }
-
+#choose:checked~.div1 .navbar ul {
+    display: block;
+    color:black;
+} 
 /* ==========================================responsiveness mainPage================================================================ */
 @media screen and (max-width:600px) {
     .navbar {
         height: 60px;
     }
     .navbar img{
-        height: 20px ;
+        height: 25px ;
     }
     #button i{
-        font-size: 15px;
+        font-size: 20px;
     }
     .navbar .list {
         display: none;
@@ -45,6 +48,9 @@ html {
         width: 100%;
         padding: 20px;
 
+    }
+    .navbar .list a{
+        color: black;
     }
 
     .navbar .list li {
@@ -83,9 +89,7 @@ html {
     #dib51 {
         width: 500px;
     }
-    #dib51 img{
-        height:500px ;
-    }
+    
 
     .div5 #dib52 h1 {
         font-size: 50px;
@@ -197,10 +201,23 @@ html {
     }
 
     .div2A img {
-        width: 600px;
+        width:550px;
+       padding-right: 10px;
 
     }
-
+    /* .productq{
+    
+    } */
+    .productq input{
+        width: 80px;
+    }
+    .divbuy .buy{
+       width: 100px;
+    }
+    .Grid{
+        flex-direction: column;
+        background-size: cover;
+    }
 }
 
 
@@ -224,6 +241,43 @@ html {
 
 
 /* ================================================Responsiveness Checkout End ================================= */
+/* ================================================Responsiveness Ordersummary Start ================================= */
+
+
+/* 
+@media screen and (max-width:600px ) {
+    .coontain{
+
+    }
+    .coontain h1{
+       font-size: 20px;
+    }
+    .drone{
+     flex-wrap: nowrap;
+    }
+    .coontain2{
+      flex-wrap: wrap;
+     
+    }
+    .order{
+     
+       display: inline;
+       justify-content: center;
+    }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+/* ================================================Responsiveness Ordersummary End ================================= */
 
 /* --------------------------------------------- shipping Details------------------------------------------- */
 #Form{
@@ -282,14 +336,24 @@ html {
 
 
 }
-#Form button{
+.Proceed {
+display: flex;
+justify-content: center;
+align-items: center;
     color: rgb(50, 0, 150);
-    background-color: #fff82f;
+   
     font-family: "Public Sans", sans-serif; 
-   margin-top: 20px;
-    margin-left: 37%;
-    height: 45px;
-    width: 400px;
+  margin-top: 20px;
+ 
+  
+}
+.Proceed button{   
+    background-color: #fff82f;
+    margin: 5px;
+  
+    height: 40px;
+    width: 300px;
+    text-align: center;
     font-size: 25px;
     font-weight: bold;
     letter-spacing: 0.2ch;
@@ -297,7 +361,11 @@ html {
     margin-bottom: 30px;
     border: none;
 }
-
+.Proceed button:hover{
+    background-color: #f4f4f4;
+   width: 350px;
+   transition-duration: 0.5s;
+}
 
 .divy1 {
     border-radius: 20px 5px;
@@ -456,7 +524,7 @@ html {
 
 .coontain {
   /* display: flex; */
-      
+      position:relative;
     justify-content: center;
    margin-top: 30px;
     margin-left: 300px;
@@ -467,12 +535,13 @@ html {
 }
 
 .coontain h1 {
+    text-align: center;
     font-family: "Rubik", sans-serif;
     color: rgb(0 4 106);
 }
 
 .drone {
-   
+   position: relative;
     margin: 30px;
     padding: 10px;
     border-radius: 20px 10px;
@@ -509,6 +578,7 @@ html {
 }
 
 .coontain2 {
+    position: relative;
     display: flex;
     justify-content: center;
     border-radius: 50px 20px;
@@ -516,6 +586,7 @@ html {
 }
 
 .coon1 {
+   
     display: flex;
     justify-content: center;
     align-items: self-start;
@@ -709,6 +780,7 @@ html {
 .placeorder:hover {
     border-radius: 10px;
     background-color: #fcff56;
+    transition-duration: 0.8s;
 }
 
 
@@ -722,16 +794,19 @@ html {
 /*==================================================Thankyou page css-------------------------------------------======================= */
 .thanks{
 
-    background-image: url(newimg/payback.jpg);
+    background-image: url(newimg/fly3.webp);
     background-repeat: no-repeat;
     
     background-size: cover;
 }
-.thankYou{
-   
-   /* margin: 300px; */
-   /* border-radius:30%;     */
+#fly{
+    height: 400px;
 }
+/* .thankYou{
+   
+   margin: 300px; */
+   /* border-radius:30%;    
+} */
 .confirm{
 
     display: flex;
@@ -765,11 +840,16 @@ html {
 }
 
 .thankYou h5{
+    margin-top: 250px;
     color: rgba(153, 51, 146, 0.679);
     text-align: center;
-    margin-bottom: 30px;
+    
     font-size: 40px;
 
+}
+.thankYou h5:hover{
+    color: rgb(33, 0, 248);
+    transition-duration: 0.5s;
 }
 
 
@@ -976,6 +1056,7 @@ img {
     color: black;
     background-color: rgba(252, 221, 221, 0.838);
     border: 1px solid black;
+    transition-duration: 0.5s;
 }
 
 .share {
@@ -1296,7 +1377,8 @@ img {
 
 .buy1:hover {
     background-color: white;
-    font-weight: bold
+    font-weight: bold;
+    transition-duration: 0.5s;
 }
 
 .div2 h6 {
@@ -1423,6 +1505,7 @@ img {
 
 #dib52 button:hover {
     background-color: white;
+    transition-duration: 0.5s;
 
 }
 
@@ -1476,6 +1559,7 @@ h2 {
 .div6 button:hover {
     background-color: black;
     color: rgb(255, 237, 156);
+    transition-duration: 0.5s;
 }
 
 .div7 {
@@ -1524,6 +1608,7 @@ h2 {
 .div7 button:hover {
     background-color: black;
     color: rgb(255, 237, 156);
+    transition-duration: 0.5s;
 }
 
 .vidb {
@@ -1555,6 +1640,7 @@ h2 {
 .vidb i:hover {
     /* font-size:110px ; */
     color: #907a3fd4;
+    transition-duration: 0.5s;
 }
 
 
@@ -1569,6 +1655,7 @@ h2 {
 
 .div8:hover {
     color: rgb(255, 237, 156);
+    transition-duration: 0.5s;
 }
 
 .div8 h1 {
@@ -1786,7 +1873,7 @@ h2 {
     background-color: rgb(23, 13, 56);
     border: none;
     position: relative;
-
+    transition-duration: 0.5s;
     top: 10px;
     left: 10px;
 
@@ -1801,6 +1888,7 @@ h2 {
 
 .f1 p:hover {
     color: #d87c7cdf;
+    transition-duration: 0.5s;
 }
 
 .f2 h1 {
@@ -1818,6 +1906,7 @@ h2 {
 
 .f2 p:hover {
     color: #d87c7cdf;
+    transition-duration: 0.5s;
 }
 
 .f3 {
@@ -1839,6 +1928,7 @@ h2 {
 
 .f3 p:hover {
     color: #d87c7cdf;
+    transition-duration: 0.5s;
 }
 
 .f4 {
@@ -1861,6 +1951,7 @@ h2 {
 
 .f4 p:hover {
     color: #d87c7cdf;
+    transition-duration: 0.5s;
 }
 
 .sub {
@@ -1905,6 +1996,7 @@ h2 {
 
 .sub button:hover {
     background-color: white;
+    transition-duration: 0.5s;
 }
 
 .c {
