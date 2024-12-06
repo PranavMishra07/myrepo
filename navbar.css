@@ -27,7 +27,9 @@ html {
     .navbar {
         height: 60px;
     }
-
+    .navbar img{
+        height: 20px ;
+    }
     .navbar .list {
         display: none;
 
