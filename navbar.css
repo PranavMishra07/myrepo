@@ -21,21 +21,26 @@ html {
 
     display: block;
 }
+
 #choose:checked~.div1 .navbar ul {
     display: block;
-    color:black;
-} 
+    color: black;
+}
+
 /* ==========================================responsiveness mainPage================================================================ */
 @media screen and (max-width:600px) {
     .navbar {
         height: 60px;
     }
-    .navbar img{
-        height: 25px ;
+
+    .navbar img {
+        height: 25px;
     }
-    #button i{
+
+    #button i {
         font-size: 20px;
     }
+
     .navbar .list {
         display: none;
 
@@ -49,7 +54,8 @@ html {
         padding: 20px;
 
     }
-    .navbar .list a{
+
+    .navbar .list a {
         color: black;
     }
 
@@ -89,7 +95,7 @@ html {
     #dib51 {
         width: 500px;
     }
-    
+
 
     .div5 #dib52 h1 {
         font-size: 50px;
@@ -126,7 +132,12 @@ html {
     .div7 {
         flex-direction: column;
     }
-
+    .div7 button{
+        margin-bottom: 20px;
+    }
+    .div8 h1{
+        
+    }
     .vidb {
         flex-direction: column;
         display: block;
@@ -136,24 +147,29 @@ html {
     .david1 {
         flex-direction: column;
     }
-     .davidA h1{
-        font-size: 25px ;
-     }
-     .davidA p{
+
+    .davidA h1 {
+        font-size: 25px;
+    }
+
+    .davidA p {
         font-size: 15px;
-     }
-     .side #i1{
+    }
+
+    .side #i1 {
         width: 400px;
         margin-left: 80px;
-     }
-     .side{
+    }
+
+    .side {
         margin-left: 20px;
-     }
-     .side #i2{
-       position: relative;
+    }
+
+    .side #i2 {
+        position: relative;
         width: 400px;
         margin-left: -30px;
-     }
+    }
 
     /* .div8{
         flex-direction: column;
@@ -201,22 +217,30 @@ html {
     }
 
     .div2A img {
-        width:550px;
-       padding-right: 10px;
+        /* width:550px; */
+        /* padding-right: 10px; */
+        width: 100%;
 
     }
+
     /* .productq{
     
     } */
-    .productq input{
+    .productq input {
         width: 80px;
     }
-    .divbuy .buy{
-       width: 100px;
+
+   .divbuy .buy button {
+     height: 100px;
     }
-    .Grid{
+
+    .Grid {
         flex-direction: column;
         background-size: cover;
+    }
+    .Grid3{
+       
+      
     }
 }
 
@@ -235,6 +259,9 @@ html {
     .checkinfo {
         flex-direction: column;
     }
+    .cityinput .i2{
+        width: 100%;
+    }
 
 }
 
@@ -244,27 +271,27 @@ html {
 /* ================================================Responsiveness Ordersummary Start ================================= */
 
 
-/* 
-@media screen and (max-width:600px ) {
-    .coontain{
 
-    }
+@media screen and (max-width:600px ) {
+  
     .coontain h1{
-       font-size: 20px;
+       font-size: 10px;
     }
     .drone{
-     flex-wrap: nowrap;
+     /* flex-wrap: nowrap; */
     }
     .coontain2{
       flex-wrap: wrap;
+      /* display: inline; */
      
     }
     .order{
      
-       display: inline;
-       justify-content: center;
+       /* display: inline; */
+       /* justify-content: center; */
     }
-} */
+    
+}
 
 
 
@@ -279,15 +306,17 @@ html {
 
 /* ================================================Responsiveness Ordersummary End ================================= */
 
+
 /* --------------------------------------------- shipping Details------------------------------------------- */
-#Form{
+#Form {
     background-image: url(newimg/back.jpg);
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
 }
+
 .checkinfo {
-  
+
     /* background-color: rgb(147, 125, 125); */
     /* margin: 50px; */
     display: flex;
@@ -314,11 +343,11 @@ html {
     background-color: rgba(255, 255, 255, 0.271);
     color: rgb(0 4 106);
     font-weight: bold;
-    font-size:20px;
+    font-size: 20px;
     text-align: center;
     margin-left: 20px;
     border: 1px solid rgb(0 4 106);
-    border-radius: 10px 2px ;
+    border-radius: 10px 2px;
     height: 30px;
     width: 300px;
 }
@@ -336,21 +365,23 @@ html {
 
 
 }
+
 .Proceed {
-display: flex;
-justify-content: center;
-align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: rgb(50, 0, 150);
-   
-    font-family: "Public Sans", sans-serif; 
-  margin-top: 20px;
- 
-  
+
+    font-family: "Public Sans", sans-serif;
+    margin-top: 20px;
+
+
 }
-.Proceed button{   
+
+.Proceed button {
     background-color: #fff82f;
     margin: 5px;
-  
+
     height: 40px;
     width: 300px;
     text-align: center;
@@ -361,10 +392,11 @@ align-items: center;
     margin-bottom: 30px;
     border: none;
 }
-.Proceed button:hover{
+
+.Proceed button:hover {
     background-color: #f4f4f4;
-   width: 350px;
-   transition-duration: 0.5s;
+    width: 350px;
+    transition-duration: 0.5s;
 }
 
 .divy1 {
@@ -517,31 +549,34 @@ align-items: center;
     /* margin-left: 150px;
     margin-right: 150px;  */
 }
-.OrderSummary h1{
-    font-family: "Rubik", sans-serif;
-    font-size: 50px;
+
+.OrderSummary h1 {
+   
 }
 
 .coontain {
-  /* display: flex; */
-      position:relative;
+    display:inline;
+    
     justify-content: center;
-   margin-top: 30px;
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-top: 30px;
+    /* margin-left: 300px;
+    margin-right: 300px; */
     align-items: center;
     text-align: center;
     /* margin: 40px; */
 }
 
 .coontain h1 {
+    margin-top: 20px;
+    font-size: 50px;
     text-align: center;
     font-family: "Rubik", sans-serif;
     color: rgb(0 4 106);
 }
 
 .drone {
-   position: relative;
+ 
+    position: relative;
     margin: 30px;
     padding: 10px;
     border-radius: 20px 10px;
@@ -578,15 +613,17 @@ align-items: center;
 }
 
 .coontain2 {
+  
     position: relative;
     display: flex;
     justify-content: center;
     border-radius: 50px 20px;
     background-color: rgba(255, 255, 255, 0.285);
+    /* background-color: rgb(255 255 255 / 10%); */
 }
 
 .coon1 {
-   
+
     display: flex;
     justify-content: center;
     align-items: self-start;
@@ -606,11 +643,11 @@ align-items: center;
 
 }
 
-#cred{
+#cred {
     font-size: 22px;
     position: relative;
     left: 55px;
-  
+
 
 }
 
@@ -624,11 +661,11 @@ align-items: center;
     padding: 5px;
     color: white;
     background-color: rgb(51, 54, 129);
-    
+
 }
 
 .order {
-    background-color: rgba(255, 255, 255, 0.466);
+    background-color: rgb(255 255 255 / 10%);
     border-radius: 10px;
     /* position: fixed;
     direction: 5px; */
@@ -637,7 +674,7 @@ align-items: center;
     margin: 20px;
     padding: 20px;
     text-align: center;
- 
+
 
 }
 
@@ -679,7 +716,7 @@ align-items: center;
 
 .shipmethod {
     border-radius: 5px 50px;
-    background-color: rgba(255, 255, 255, 0.259);
+    background-color: rgb(255 255 255 / 10%);
 
     margin: 10px;
     padding: 20px;
@@ -690,7 +727,7 @@ align-items: center;
 .shipmethod input {
     font-family: "Public Sans", sans-serif;
     background-color: rgba(255, 255, 255, 0.669);
-   
+
     text-align: center;
     color: rgb(0, 0, 0);
     margin-left: 20px;
@@ -698,40 +735,44 @@ align-items: center;
     border-radius: 10px 2px;
     height: 30px;
     width: 300px;
-    margin-top:10px;
-    
+    margin-top: 10px;
+
 }
-.shipmethod input{
+
+.shipmethod input {
     font-family: "Public Sans", sans-serif;
     font-size: 25px;
-    color:  rgb(69, 0, 0);
+    color: rgb(69, 0, 0);
 
 }
 
-.shipmethod #radio{
+.shipmethod #radio {
     background-color: black;
     color: black;
     margin: 20px;
-  height: 20px;
-  width: 50px;
+    height: 20px;
+    width: 50px;
 }
+
 .shipmethod h4 {
     color: rgb(0 4 106);
     border-radius: 50px 10px;
-    background-color: rgba(255, 255, 255, 0.332);
+    /* background-color: rgba(255, 255, 255, 0.332); */
     font-family: "Rubik", sans-serif;
     font-size: 40px;
     text-align: center;
 }
-.shipmethod h3{
+
+.shipmethod h3 {
     font-family: "Rubik", sans-serif;
     font-size: 35px;
-    color: rgb(0, 255, 136);
+    /* color: rgb(0, 255, 136); */
+    color: rgb(246, 119, 0);
 }
 
 .shipmethod img {
     height: 30px;
- border-radius: 50px;
+    border-radius: 50px;
 
 }
 
@@ -740,20 +781,21 @@ align-items: center;
     height: 50px;
     position: relative;
     top: 13px;
-    right:35px;
+    right: 35px;
 }
 
 .shipmethod #rupy {
     height: 60px;
     position: relative;
     top: 20px;
-    right:35px; 
-    
+    right: 35px;
+
 }
-.shipmethod #phonpe{
+
+.shipmethod #phonpe {
     position: relative;
     top: 5px;
-    right:30px; 
+    right: 30px;
 }
 
 .bttn {
@@ -789,65 +831,115 @@ align-items: center;
 
 
 /* ================================================ === Order SummArry Css End === =========================------------------------ */
+/* ==========================================Responsiveness Thankyou  :start================================= */
+@media screen and (max-width:600px) {
+    .thanks{
+        background-image: url(newimg/fly2.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
 
+    }
+    .confirm img {
+     
+        flex-direction: column;
+        margin-bottom: 60px;
+
+    }
+
+    .thankcode h3 {
+        margin-top: 20px;
+        color: #0047a4;
+        font-size: 20px;
+    }
+
+    .thankcode p {
+        color:#360437;
+        margin-top: 10px;
+        font-size: 10px;
+    }
+
+    .thankYou h5 {
+        /* color: rgba(255, 255, 255, 0.87); */
+        color: rgb(73 110 255);
+    }
+    .thankYou h5:hover{
+        /* color: rgba(105, 0, 0, 0.87); */
+
+    }
+
+}
+
+
+
+
+/* ==========================================Responsiveness Thankyou  End ================================= */
 
 /*==================================================Thankyou page css-------------------------------------------======================= */
-.thanks{
+.thanks {
 
     background-image: url(newimg/fly3.webp);
     background-repeat: no-repeat;
-    
     background-size: cover;
 }
-#fly{
+
+#fly {
     height: 400px;
 }
+
 /* .thankYou{
    
    margin: 300px; */
-   /* border-radius:30%;    
+/* border-radius:30%;    
 } */
-.confirm{
+.confirm {
 
     display: flex;
-    justify-content: center;align-items: center;
+    justify-content: center;
+    align-items: center;
 }
-.confirm img{  
-  height: 200px;
+
+.confirm img {
+    height: 200px;
 }
-.thankcode{
+
+.thankcode {
 
     text-align: center;
 }
-.thankcode h3{  
-    font-family: "Rubik", sans-serif; 
+
+.thankcode h3 {
+    font-family: "Rubik", sans-serif;
     font-size: 50px;
 }
-.thankcode p{  
+
+.thankcode p {
     font-family: "Public Sans", sans-serif;
     font-size: 30px;
 }
-.paid{
+
+.paid {
 
     text-align: center;
-    
+
 }
-.paid img{
-  
+
+.paid img {
+
     margin-top: 30px;
     height: 300px;
     border-radius: 100%;
 }
 
-.thankYou h5{
+.thankYou h5 {
     margin-top: 250px;
     color: rgba(153, 51, 146, 0.679);
     text-align: center;
-    
+
     font-size: 40px;
 
 }
-.thankYou h5:hover{
+
+.thankYou h5:hover {
     color: rgb(33, 0, 248);
     transition-duration: 0.5s;
 }
@@ -964,7 +1056,8 @@ img {
 }
 
 .div2A img {
-    margin-left: 30px;
+    /* width: 100%; */
+    /* margin-left: 30px; */
     height: 700px;
 }
 
@@ -1044,16 +1137,19 @@ img {
     background-color: #FF6B31;
     font-size: 25px;
     color: white;
-    border: none;
+   
     border-radius: 9px;
     margin-left: 30px;
     margin-top: 20px;
     height: 55px;
     width: 400px;
+    border: none;
 }
+
 
 .divbuy .buy button:hover {
     color: black;
+    border: none;
     background-color: rgba(252, 221, 221, 0.838);
     border: 1px solid black;
     transition-duration: 0.5s;
@@ -1087,9 +1183,9 @@ img {
     background-color: rgb(255, 255, 255);
     border: none;
     position: relative;
-
-    top: 10px;
-    left: 10px;
+    transition-duration: 0.3s;
+    top: 5px;
+    left:5px;
 
 }
 
@@ -1185,6 +1281,7 @@ img {
 .Grid2 .ch3 {
     background-image: url(newimg/remote.jpg);
     background-size: cover;
+   
 
 }
 
@@ -1230,9 +1327,9 @@ img {
 
 .Grid3 {
     margin-top: 30px;
-    margin-bottom: 30px;
+    /* margin-bottom: 0px; */
     display: grid;
-
+   
     grid-gap: 1rem;
     /* height: 60vh; */
     background-size: cover;
@@ -2010,4 +2107,5 @@ h2 {
     color: #ffffffc5;
     background-color: rgb(23, 13, 56);
 }
+
 /* --------------------------------------------------------main  page css end  ------------------------------------------------------------------*/
