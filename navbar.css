@@ -210,8 +210,12 @@ html {
     }
 
     .f1 #Idiv {
+        /* width: 100%; */
+        padding-left: 30px;
+    }
+    .sub {
         width: 100%;
-        padding-left: 50px;
+        margin-right: 20px;
     }
 
     .c {
