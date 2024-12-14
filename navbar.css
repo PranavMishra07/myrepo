@@ -93,7 +93,11 @@ html {
     }
 
     #dib51 {
-        width: 500px;
+        /* width: 500px; */
+        margin-right: 30px;
+    }
+    #dib51 img{
+        width: 100%;
     }
 
 
@@ -103,12 +107,23 @@ html {
 
     .div5 #dib52 p {
         font-size: 20px;
+        margin-right: 20px;
     }
 
     .div5 #dib52 button {
-        height: 30px;
+        height: 45px;
     }
-
+    .div6 p{
+        margin-right: 20px;
+    }
+    .div7 div h1{
+        font-size: 63px;
+        margin-right: 10px;
+    }
+    .div7 div p{
+        font-size: 18px;
+    }
+        
     #mini {
         font-size: 100px;
     }
@@ -158,7 +173,7 @@ html {
 
     .side #i1 {
         width: 400px;
-        margin-left: 80px;
+        margin-left: -18px;
     }
 
     .side {
@@ -168,7 +183,8 @@ html {
     .side #i2 {
         position: relative;
         width: 400px;
-        margin-left: -30px;
+        /* margin-left: -30px; */
+        margin-bottom: 31px;
     }
 
     /* .div8{
@@ -575,7 +591,7 @@ html {
 }
 
 .drone {
- 
+    box-shadow: #216161fa 10px 3px 22px -2px;
     position: relative;
     margin: 30px;
     padding: 10px;
@@ -599,6 +615,7 @@ html {
 }
 
 .drone h3 {
+  
     font-family: "Rubik", sans-serif;
     font-size: 30px;
 }
@@ -613,7 +630,7 @@ html {
 }
 
 .coontain2 {
-  
+    box-shadow: #216161fa 10px 3px 22px -2px;
     position: relative;
     display: flex;
     justify-content: center;
@@ -676,6 +693,7 @@ html {
     text-align: center;
 
 
+
 }
 
 .order h5 {
@@ -717,7 +735,7 @@ html {
 .shipmethod {
     border-radius: 5px 50px;
     background-color: rgb(255 255 255 / 10%);
-
+    box-shadow: #216161fa 10px 3px 22px -2px;
     margin: 10px;
     padding: 20px;
     gap: 30px;
@@ -1560,6 +1578,7 @@ img {
 }
 
 #dib51 img {
+    width: 100%;
     position: relative;
     top: 20px;
     left: 20px;
@@ -1846,10 +1865,11 @@ h2 {
 
 .side #i2 {
     height: 400px;
-    width: 550px;
+    /* width: 550px; */
+    width: 100%;
     position: relative;
     top: 35px;
-    left: 35px;
+  
 }
 
 .div9 {
@@ -1884,6 +1904,7 @@ h2 {
     padding-bottom: 20px;
     border-radius: 10px;
     height: 400px;
+    width: 100%;
 
 }
 
