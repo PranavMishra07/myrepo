@@ -211,7 +211,7 @@ html {
 
     .f1 #Idiv {
         /* width: 100%; */
-        padding-left: 30px;
+        padding-left: 20px;
     }
     .sub {
         width: 100%;
@@ -1865,6 +1865,7 @@ h2 {
     height: 300px;
     position: relative;
     bottom: 120px;
+    width: 100%;
     left: 10px
 }
 
