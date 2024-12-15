@@ -81,9 +81,8 @@ html {
         font-size: 60px;
     }
 
-    .div3 img {
-        width: 500px;
-    }
+
+
 
     .div4 {
         margin-top: 100px;
@@ -97,7 +96,8 @@ html {
         /* width: 500px; */
         margin-right: 30px;
     }
-    #dib51 img{
+
+    #dib51 img {
         width: 100%;
     }
 
@@ -114,17 +114,20 @@ html {
     .div5 #dib52 button {
         height: 45px;
     }
-    .div6 p{
+
+    .div6 p {
         margin-right: 20px;
     }
-    .div7 div h1{
+
+    .div7 div h1 {
         font-size: 63px;
         margin-right: 10px;
     }
-    .div7 div p{
+
+    .div7 div p {
         font-size: 18px;
     }
-        
+
     #mini {
         font-size: 100px;
     }
@@ -148,12 +151,11 @@ html {
     .div7 {
         flex-direction: column;
     }
-    .div7 button{
+
+    .div7 button {
         margin-bottom: 20px;
     }
-    .div8 h1{
-        
-    }
+
     .vidb {
         flex-direction: column;
         display: block;
@@ -188,9 +190,7 @@ html {
         margin-bottom: 31px;
     }
 
-    /* .div8{
-        flex-direction: column;
-    } */
+
     .div9 {
 
         flex-direction: column;
@@ -211,9 +211,10 @@ html {
     }
 
     .f1 #Idiv {
-        /* width: 100%; */
+
         padding-left: 20px;
     }
+
     .sub {
         width: 100%;
         margin-right: 20px;
@@ -252,18 +253,15 @@ html {
         width: 80px;
     }
 
-   .divbuy .buy button {
-     height: 100px;
+    .divbuy .buy button {
+        height: 100px;
     }
 
     .Grid {
         flex-direction: column;
         background-size: cover;
     }
-    .Grid3{
-       
-      
-    }
+
 }
 
 
@@ -281,7 +279,8 @@ html {
     .checkinfo {
         flex-direction: column;
     }
-    .cityinput .i2{
+
+    .cityinput .i2 {
         width: 100%;
     }
 
@@ -294,25 +293,19 @@ html {
 
 
 
-@media screen and (max-width:600px ) {
-  
-    .coontain h1{
-       font-size: 10px;
+@media screen and (max-width:600px) {
+
+    .coontain h1 {
+        font-size: 10px;
     }
-    .drone{
-     /* flex-wrap: nowrap; */
+
+    .coontain2 {
+        flex-wrap: wrap;
+        /* display: inline; */
+
     }
-    .coontain2{
-      flex-wrap: wrap;
-      /* display: inline; */
-     
-    }
-    .order{
-     
-       /* display: inline; */
-       /* justify-content: center; */
-    }
-    
+
+
 }
 
 
@@ -572,13 +565,11 @@ html {
     margin-right: 150px;  */
 }
 
-.OrderSummary h1 {
-   
-}
+
 
 .coontain {
-    display:inline;
-    
+    display: inline;
+
     justify-content: center;
     margin-top: 30px;
     /* margin-left: 300px;
@@ -621,7 +612,7 @@ html {
 }
 
 .drone h3 {
-  
+
     font-family: "Rubik", sans-serif;
     font-size: 30px;
 }
@@ -688,7 +679,7 @@ html {
 }
 
 .order {
-    background-color: rgb(255 255 255 / 10%);
+    background-color: rgb(255 255 255 / 68%);
     border-radius: 10px;
     /* position: fixed;
     direction: 5px; */
@@ -857,14 +848,15 @@ html {
 /* ================================================ === Order SummArry Css End === =========================------------------------ */
 /* ==========================================Responsiveness Thankyou  :start================================= */
 @media screen and (max-width:600px) {
-    .thanks{
+    .thanks {
         background-image: url(newimg/fly2.webp);
         background-repeat: no-repeat;
         background-size: cover;
 
     }
+
     .confirm img {
-     
+
         flex-direction: column;
         margin-bottom: 60px;
 
@@ -877,7 +869,7 @@ html {
     }
 
     .thankcode p {
-        color:#360437;
+        color: #360437;
         margin-top: 10px;
         font-size: 10px;
     }
@@ -885,10 +877,6 @@ html {
     .thankYou h5 {
         /* color: rgba(255, 255, 255, 0.87); */
         color: rgb(73 110 255);
-    }
-    .thankYou h5:hover{
-        /* color: rgba(105, 0, 0, 0.87); */
-
     }
 
 }
@@ -1161,7 +1149,7 @@ img {
     background-color: #FF6B31;
     font-size: 25px;
     color: white;
-   
+
     border-radius: 9px;
     margin-left: 30px;
     margin-top: 20px;
@@ -1209,7 +1197,7 @@ img {
     position: relative;
     transition-duration: 0.3s;
     top: 5px;
-    left:5px;
+    left: 5px;
 
 }
 
@@ -1305,7 +1293,7 @@ img {
 .Grid2 .ch3 {
     background-image: url(newimg/remote.jpg);
     background-size: cover;
-   
+
 
 }
 
@@ -1353,7 +1341,7 @@ img {
     margin-top: 30px;
     /* margin-bottom: 0px; */
     display: grid;
-   
+
     grid-gap: 1rem;
     /* height: 60vh; */
     background-size: cover;
@@ -1876,7 +1864,7 @@ h2 {
     width: 100%;
     position: relative;
     top: 35px;
-  
+
 }
 
 .div9 {
