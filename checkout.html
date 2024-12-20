@@ -65,7 +65,7 @@
 
         </nav>
     </div>
-    <form action="Ordersummry.html" id="Form">
+    <form action="Ordersummry.html" onsubmit="return sub()" id="Form">
         <div class="checkinfo">
             <div class="divy">
                 <div class="divy1">
@@ -75,7 +75,7 @@
                 </div>
                 <div class="divy2">
                     <label for=""><b>Email *</b></label><br>
-                    <input type="email" placeholder="">
+                    <input type="email" id="email" placeholder="Enter Your Email">
                 </div>
                 <div class="divy3">
                     <h4>Shipping Address*</h4>
@@ -84,18 +84,18 @@
                 </div>
                 <div class="shipinfo">
                     <h3>Full Name *</h3>
-                    <input type="text">
+                    <input type="text" id="name">
                     <h3>Street Address *</h3>
-                    <input type="text"> <br> <br>
+                    <input type="text" id="address"> <br> <br>
                     <input type="text"><br>
                     <label for="">
                         <h3>Zip/Postal Code *</h3>
                     </label>
-                    <input type="text">
+                    <input type="text" id="pin">
                     <label for="">
                         <h3>Country *</h3>
                     </label>
-                    <input type="text">
+                    <input id="country" type="text">
 
 
 
@@ -167,6 +167,45 @@
     <div class="c">
         <p><i>©2024 All rights reserved. Powered by ThemeCTG</i></p>
     </div>
+    <script>
+        function sub() {
+            let email = document.querySelector("#email").value
+            let name = document.querySelector("#name").value
+            let address = document.querySelector("#address").value
+            let pin = document.querySelector("#pin").value
+            let country = document.querySelector("#country").value
+            if (email == "") {
+                alert("Enter Email")
+                document.querySelector("#email").focus()
+                return false
+            }
+            else if (name == "") {
+                alert("Enter Your Name")
+                document.querySelector("#name").focus()
+                return false
+
+            }
+            else if (pin == "") {
+                alert("Enter PinCode")
+                document.querySelector("#pin").focus()
+                return false
+            }
+
+            else if (address == "") {
+                alert("Enter Address")
+                document.querySelector("#address").focus()
+                return false
+            }
+            else if (country == "") {
+                alert("Enter Country")
+                document.querySelector("#country").focus()
+                return false
+            }
+
+        }
+    </script>
+
+
 
 </body>
 
