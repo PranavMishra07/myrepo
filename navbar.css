@@ -12,7 +12,9 @@ body {
     margin: 0;
     padding: 0;
 }
-
+a{
+    text-decoration: none;
+}
 html {
     scroll-behavior: smooth;
 }
@@ -44,7 +46,6 @@ html {
 
     .navbar .list {
         display: none;
-
         background-color: rgba(250, 250, 170, 0.543);
         color: #000000;
         font-weight: bold;
@@ -1423,8 +1424,9 @@ img {
 
 .list :hover {
     color: white;
-    font-size: 25px;
+    /* font-size: 25px; */
     text-decoration: underline rgb(250, 250, 170);
+    transition: all;
 }
 
 #button {
@@ -1440,19 +1442,19 @@ img {
     text-align: center;
 }
 
-.i1:hover {
+.i1 :hover {
     color: #f70000;
-    font-size: 30px;
+    /* font-size: 30px; */
 }
 
-.i2:hover {
+.i2 :hover {
     color: #78d0f6;
-    font-size: 35px;
+    /* font-size: 35px; */
 }
 
-.i3:hover {
+.i3 :hover {
     color: #f0ff18;
-    font-size: 30px;
+    /* font-size: 30px; */
 }
 
 #button label {
